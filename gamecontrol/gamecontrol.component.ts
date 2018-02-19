@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gamecontrol.component.css']
 })
 export class GamecontrolComponent implements OnInit {
-  increment: number;
 
   constructor() { }
 
