@@ -18,8 +18,7 @@ export class GamecontrolComponent implements OnInit {
   // start button
   onStart() {
     this.increment = setInterval(() => {
-      this.initiateEvent.emit(this.startNum + 1);
-      this.startNum++;
+      this.initiateEvent.emit(++this.startNum);
     }, 1000);
   }
 
